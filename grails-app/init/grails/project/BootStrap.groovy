@@ -20,4 +20,8 @@ class BootStrap {
     }
     def destroy = {
     }
+
+    def update ={
+
+    }
 }
