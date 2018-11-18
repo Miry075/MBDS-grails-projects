@@ -52,6 +52,10 @@
     <div id="content" role="main">
         <section class="row colset-2-its">
             <h1>User added successfuly</h1>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 723255fbf3db01c0f88135f0a46b15060791ec86
 
         </section>
     </div>
