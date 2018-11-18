@@ -53,7 +53,6 @@
         <section class="row colset-2-its">
             <h1>User added successfuly</h1>
 
-
         </section>
     </div>
 

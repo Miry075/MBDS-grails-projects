@@ -6,14 +6,17 @@ class UserController {
 
     def index() { }
 
+    def formUser(){}
+
     def save() {
         def date = new Date()
         userService.save(
-                "Miry",
-                "activation",
-                "Mirindra",
-                "Hery",
+                "Lai",
+                "lai",
+                "Lai",
+                "Christphe",
                 "hery.mirindra@outlook.com",
+                23,
                 date
         )
         render(view: 'index')

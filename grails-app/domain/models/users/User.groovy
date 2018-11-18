@@ -18,7 +18,6 @@ class User {
         username        nullable:false, unique: true, blank:false
         password        nullable:false
         email           nullable:false
-        age             nullable:false, blank:false
         lastName        nullable:false
         firstName       nullable:false
     }
