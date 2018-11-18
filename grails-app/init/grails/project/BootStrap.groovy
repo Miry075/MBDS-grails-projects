@@ -14,7 +14,8 @@ class BootStrap {
                 "Mirindra",
                 "Hery",
                 "hery.mirindra@outlook.com",
-                date
+                date,
+                21
         )
     }
     def destroy = {

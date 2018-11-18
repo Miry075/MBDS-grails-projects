@@ -102,7 +102,7 @@ dataSource:
     jmxExport: true
     driverClassName: org.postgresql.Driver
     username: postgres
-    password: Activation_075
+    password: root
     url: jdbc:postgresql://localhost:5432/mbds-grails-project
     dbCreate: update
 
