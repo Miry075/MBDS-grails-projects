@@ -90,6 +90,19 @@ grails:
         params:
             prefer_sequence_per_entity: true
 
+    plugin:
+        springsecurity:
+            logout:
+                postOnly: false
+
+    hibernate:
+        cache:
+            queries: false
+            provider_class: net.sf.ehcache.hibernate.EhCacheProvider
+            region:
+                factory_class: org.hibernate.cache.ehcache.EhCacheRegionFactory
+
+
 endpoints:
     jmx:
         unique-names: true

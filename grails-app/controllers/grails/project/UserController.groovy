@@ -11,13 +11,8 @@ class UserController {
     def save() {
         def date = new Date()
         userService.save(
-                "Lai",
-                "lai",
-                "Lai",
-                "Christphe",
-                "hery.mirindra@outlook.com",
-                23,
-                date
+                "Miry",
+                "activation",
         )
         render(view: 'index')
 

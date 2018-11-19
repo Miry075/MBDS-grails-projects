@@ -8,16 +8,11 @@ import models.users.User
 class UserService {
 
     @Transactional
-    void save(String username, String password, String firstName, String lastName, String email, Integer age, Date dateOfBirth) {
+    void save(String username, String password) {
         print "save user $username"
         User user = new User(
                 username: username,
                 password: password,
-                firstName: firstName,
-                lastName: lastName,
-                email: email,
-                age: age,
-                dateOfBirth: dateOfBirth
         )
         user.save(flush :true, failOnError:true)
         print ("user $user.username saved successfuly")

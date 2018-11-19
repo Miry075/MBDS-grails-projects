@@ -10,18 +10,6 @@
           <root url="file://$MODULE_DIR$/../../src/main/webapp" relative="/" />
           <root url="file://$MODULE_DIR$/../../build/assets" relative="/assets" />
         </webroots>
-        <sourceRoots>
-          <root url="file://$MODULE_DIR$/../../grails-app/taglib" />
-          <root url="file://$MODULE_DIR$/../../grails-app/init" />
-          <root url="file://$MODULE_DIR$/../../grails-app/controllers" />
-          <root url="file://$MODULE_DIR$/../../src/main/groovy" />
-          <root url="file://$MODULE_DIR$/../../grails-app/domain" />
-          <root url="file://$MODULE_DIR$/../../grails-app/i18n" />
-          <root url="file://$MODULE_DIR$/../../grails-app/utils" />
-          <root url="file://$MODULE_DIR$/../../grails-app/conf" />
-          <root url="file://$MODULE_DIR$/../../grails-app/services" />
-          <root url="file://$MODULE_DIR$/../../grails-app/views" />
-        </sourceRoots>
       </configuration>
     </facet>
   </component>
@@ -33,16 +21,19 @@
       <sourceFolder url="file://$MODULE_DIR$/../../grails-app/domain" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../grails-app/init" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../grails-app/services" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../grails-app/taglib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../grails-app/utils" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../grails-app/conf" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/../../grails-app/i18n" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/../../grails-app/views" type="java-resource" />
     </content>
-    <content url="file://$MODULE_DIR$/../../src/main" />
+    <content url="file://$MODULE_DIR$/../../src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/groovy" isTestSource="false" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-logging:1.5.15.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-autoconfigure:1.5.15.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.grails:grails-core:3.3.8" level="project" />
     <orderEntry type="module-library" scope="RUNTIME">
       <library>
         <CLASSES>
@@ -52,6 +43,7 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="Gradle: org.grails:grails-core:3.3.8" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-actuator:1.5.15.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-tomcat:1.5.15.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.grails:grails-web-boot:3.3.8" level="project" />
@@ -71,14 +63,15 @@
     <orderEntry type="library" name="Gradle: org.grails.plugins:gsp:3.3.1" level="project" />
     <orderEntry type="library" name="Gradle: org.grails.plugins:postgresql-extensions:4.8.0" level="project" />
     <orderEntry type="library" name="Gradle: org.hibernate:hibernate-ehcache:5.1.1.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.grails.plugins:spring-security-core:3.2.3" level="project" />
     <orderEntry type="library" name="Gradle: org.postgresql:postgresql:42.2.5.jre7" level="project" />
     <orderEntry type="library" name="Gradle: ch.qos.logback:logback-classic:1.1.11" level="project" />
     <orderEntry type="library" name="Gradle: org.slf4j:jcl-over-slf4j:1.7.25" level="project" />
     <orderEntry type="library" name="Gradle: org.slf4j:jul-to-slf4j:1.7.25" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.glassfish.web:el-impl:2.1.2-b03" level="project" />
     <orderEntry type="library" name="Gradle: org.slf4j:log4j-over-slf4j:1.7.25" level="project" />
-    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot:1.5.15.RELEASE" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.h2database:h2:1.4.197" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot:1.5.15.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.codehaus.groovy:groovy:2.4.15" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.tomcat:tomcat-jdbc:8.5.32" level="project" />
     <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.25" level="project" />
@@ -127,6 +120,8 @@
     <orderEntry type="library" name="Gradle: org.grails:grails-web-jsp:3.3.1" level="project" />
     <orderEntry type="library" name="Gradle: com.google.code.gson:gson:2.8.5" level="project" />
     <orderEntry type="library" name="Gradle: net.sf.ehcache:ehcache:2.10.5" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.security:spring-security-core:4.2.7.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.security:spring-security-web:4.2.7.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: ch.qos.logback:logback-core:1.1.11" level="project" />
     <orderEntry type="library" name="Gradle: commons-logging:commons-logging:1.2" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-aop:4.3.18.RELEASE" level="project" />
@@ -134,12 +129,12 @@
     <orderEntry type="library" name="Gradle: org.codehaus.groovy:groovy-xml:2.4.15" level="project" />
     <orderEntry type="library" name="Gradle: org.codehaus.groovy:groovy-templates:2.4.15" level="project" />
     <orderEntry type="library" name="Gradle: org.yaml:snakeyaml:1.17" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: javax.el:el-api:2.1.2-b03" level="project" />
     <orderEntry type="library" name="Gradle: javax.transaction:jta:1.1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: javax.el:el-api:2.1.2-b03" level="project" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.8.11.2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.tomcat:tomcat-juli:8.5.32" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.bertramlabs.plugins:asset-pipeline-core:2.14.8" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.tomcat:tomcat-annotations-api:8.5.32" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.bertramlabs.plugins:asset-pipeline-core:2.14.8" level="project" />
     <orderEntry type="library" name="Gradle: org.grails:grails-databinding:3.3.8" level="project" />
     <orderEntry type="library" name="Gradle: org.grails:grails-encoder:3.3.8" level="project" />
     <orderEntry type="library" name="Gradle: org.grails:grails-gsp:3.3.1" level="project" />
@@ -164,6 +159,7 @@
     <orderEntry type="library" name="Gradle: org.hibernate:hibernate-validator:5.3.6.Final" level="project" />
     <orderEntry type="library" name="Gradle: javax.el:javax.el-api:2.2.4" level="project" />
     <orderEntry type="library" name="Gradle: org.grails:grails-codecs:3.3.8" level="project" />
+    <orderEntry type="library" name="Gradle: aopalliance:aopalliance:1.0" level="project" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.8.0" level="project" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.8.11" level="project" />
     <orderEntry type="library" name="Gradle: org.codehaus.groovy:groovy-json:2.4.15" level="project" />

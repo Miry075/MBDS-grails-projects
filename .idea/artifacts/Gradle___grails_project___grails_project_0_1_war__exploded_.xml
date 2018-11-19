@@ -39,13 +39,14 @@
           <element id="library" level="project" name="Gradle: org.grails.plugins:gsp:3.3.1" />
           <element id="library" level="project" name="Gradle: org.grails.plugins:postgresql-extensions:4.8.0" />
           <element id="library" level="project" name="Gradle: org.hibernate:hibernate-ehcache:5.1.1.Final" />
+          <element id="library" level="project" name="Gradle: org.grails.plugins:spring-security-core:3.2.3" />
           <element id="library" level="project" name="Gradle: ch.qos.logback:logback-classic:1.1.11" />
           <element id="library" level="project" name="Gradle: org.slf4j:jcl-over-slf4j:1.7.25" />
           <element id="library" level="project" name="Gradle: org.slf4j:jul-to-slf4j:1.7.25" />
           <element id="library" level="project" name="Gradle: org.glassfish.web:el-impl:2.1.2-b03" />
           <element id="library" level="project" name="Gradle: org.slf4j:log4j-over-slf4j:1.7.25" />
-          <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot:1.5.15.RELEASE" />
           <element id="library" level="project" name="Gradle: com.h2database:h2:1.4.197" />
+          <element id="library" level="project" name="Gradle: org.springframework.boot:spring-boot:1.5.15.RELEASE" />
           <element id="library" level="project" name="Gradle: org.codehaus.groovy:groovy:2.4.15" />
           <element id="library" level="project" name="Gradle: org.apache.tomcat:tomcat-jdbc:8.5.32" />
           <element id="library" level="project" name="Gradle: org.slf4j:slf4j-api:1.7.25" />
@@ -94,6 +95,8 @@
           <element id="library" level="project" name="Gradle: org.grails:grails-web-jsp:3.3.1" />
           <element id="library" level="project" name="Gradle: com.google.code.gson:gson:2.8.5" />
           <element id="library" level="project" name="Gradle: net.sf.ehcache:ehcache:2.10.5" />
+          <element id="library" level="project" name="Gradle: org.springframework.security:spring-security-core:4.2.7.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework.security:spring-security-web:4.2.7.RELEASE" />
           <element id="library" level="project" name="Gradle: ch.qos.logback:logback-core:1.1.11" />
           <element id="library" level="project" name="Gradle: commons-logging:commons-logging:1.2" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-aop:4.3.18.RELEASE" />
@@ -103,10 +106,10 @@
           <element id="library" level="project" name="Gradle: org.yaml:snakeyaml:1.17" />
           <element id="library" level="project" name="Gradle: javax.el:el-api:2.1.2-b03" />
           <element id="library" level="project" name="Gradle: javax.transaction:jta:1.1" />
-          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.8.11.2" />
           <element id="library" level="project" name="Gradle: org.apache.tomcat:tomcat-juli:8.5.32" />
-          <element id="library" level="project" name="Gradle: com.bertramlabs.plugins:asset-pipeline-core:2.14.8" />
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.8.11.2" />
           <element id="library" level="project" name="Gradle: org.apache.tomcat:tomcat-annotations-api:8.5.32" />
+          <element id="library" level="project" name="Gradle: com.bertramlabs.plugins:asset-pipeline-core:2.14.8" />
           <element id="library" level="project" name="Gradle: org.grails:grails-databinding:3.3.8" />
           <element id="library" level="project" name="Gradle: org.grails:grails-encoder:3.3.8" />
           <element id="library" level="project" name="Gradle: org.grails:grails-gsp:3.3.1" />
@@ -131,6 +134,7 @@
           <element id="library" level="project" name="Gradle: org.hibernate:hibernate-validator:5.3.6.Final" />
           <element id="library" level="project" name="Gradle: javax.el:javax.el-api:2.2.4" />
           <element id="library" level="project" name="Gradle: org.grails:grails-codecs:3.3.8" />
+          <element id="library" level="project" name="Gradle: aopalliance:aopalliance:1.0" />
           <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.8.0" />
           <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.8.11" />
           <element id="library" level="project" name="Gradle: org.codehaus.groovy:groovy-json:2.4.15" />
