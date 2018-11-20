@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="Gradle : grails.project : grails-project-0.1.war (exploded)">
-    <output-path>$PROJECT_DIR$/build/libs/exploded/grails-project-0.1.war</output-path>
+  <artifact type="exploded-war" name="Gradle : grails.project : grails-project-0.1.SANPSHOT.war (exploded)">
+    <output-path>$PROJECT_DIR$/build/libs/exploded/grails-project-0.1.SANPSHOT.war</output-path>
     <properties id="gradle-properties">
       <options external-project-path="$PROJECT_DIR$">
         <manifest>TWFuaWZlc3QtVmVyc2lvbjogMS4wDQoNCg==</manifest>
@@ -8,9 +8,9 @@
     </properties>
     <root id="root">
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/build/libs/exploded/grails-project-0.1.war/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/build/libs/exploded/grails-project-0.1.SANPSHOT.war/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="grails-project_main/web/Web Gradle : grails-project-0.1.war" />
+      <element id="javaee-facet-resources" facet="grails-project_main/web/Web Gradle : grails-project-0.1.SANPSHOT.war" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="grails-project_main" />
@@ -104,10 +104,10 @@
           <element id="library" level="project" name="Gradle: org.codehaus.groovy:groovy-xml:2.4.15" />
           <element id="library" level="project" name="Gradle: org.codehaus.groovy:groovy-templates:2.4.15" />
           <element id="library" level="project" name="Gradle: org.yaml:snakeyaml:1.17" />
-          <element id="library" level="project" name="Gradle: javax.el:el-api:2.1.2-b03" />
           <element id="library" level="project" name="Gradle: javax.transaction:jta:1.1" />
-          <element id="library" level="project" name="Gradle: org.apache.tomcat:tomcat-juli:8.5.32" />
+          <element id="library" level="project" name="Gradle: javax.el:el-api:2.1.2-b03" />
           <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.8.11.2" />
+          <element id="library" level="project" name="Gradle: org.apache.tomcat:tomcat-juli:8.5.32" />
           <element id="library" level="project" name="Gradle: org.apache.tomcat:tomcat-annotations-api:8.5.32" />
           <element id="library" level="project" name="Gradle: com.bertramlabs.plugins:asset-pipeline-core:2.14.8" />
           <element id="library" level="project" name="Gradle: org.grails:grails-databinding:3.3.8" />

@@ -1,6 +1,6 @@
-#Sun, 18 Nov 2018 20:41:26 +0400
+#Mon, 19 Nov 2018 23:02:01 +0400
 
-info.app.version=0.1
+info.app.version=0.1.SNAPSHOT
 info.app.name=grails-project
 grails.env=production
 info.app.grailsVersion=3.3.8

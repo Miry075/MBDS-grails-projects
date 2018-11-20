@@ -11,7 +11,6 @@ import grails.compiler.GrailsCompileStatic
 class User implements Serializable {
 
 	private static final long serialVersionUID = 1
-
     SpringSecurityService springSecurityService
 
 	String username
