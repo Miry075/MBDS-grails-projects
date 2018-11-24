@@ -11,14 +11,21 @@ import grails.compiler.GrailsCompileStatic
 class User implements Serializable {
 
 	private static final long serialVersionUID = 1
+
     SpringSecurityService springSecurityService
 
-	String username
-	String password
-	boolean enabled = true
-	boolean accountExpired
-	boolean accountLocked
-	boolean passwordExpired
+    String img
+    String username
+    String password
+    String email
+    String firstName
+    String lastName
+    Date recordDate
+    boolean isConnected
+    boolean enabled = true
+    boolean accountExpired
+    boolean accountLocked
+    boolean passwordExpired
 
 	Set<Role> getAuthorities() {
 		(UserRole.findAllByUser(this) as List<UserRole>)*.role as Set<Role>
@@ -44,6 +51,7 @@ class User implements Serializable {
 	static constraints = {
 		password blank: false, password: true
 		username blank: false, unique: true
+        img nullable: true, blank: true
 	}
 
 	static mapping = {

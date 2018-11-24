@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.bertramlabs.plugins:sass-asset-pipeline:2.8.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.bertramlabs.plugins/sass-asset-pipeline/2.8.0/5ba4b1715e2fb893459588cd8a58e02b16f5600b/sass-asset-pipeline-2.8.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.bertramlabs.plugins/sass-asset-pipeline/2.8.0/8fe68eda210be5004eb71e35b8a8358380f382da/sass-asset-pipeline-2.8.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

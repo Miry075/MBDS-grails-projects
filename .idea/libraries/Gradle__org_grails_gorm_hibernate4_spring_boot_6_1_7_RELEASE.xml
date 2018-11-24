@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.grails:gorm-hibernate4-spring-boot:6.1.7.RELEASE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/gorm-hibernate4-spring-boot/6.1.7.RELEASE/c2382f10cf60d453a6cedbbc6865918570b07fb4/gorm-hibernate4-spring-boot-6.1.7.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.grails/gorm-hibernate4-spring-boot/6.1.7.RELEASE/bc18e3801f7054e9fa37bc5cc4087305e6e33788/gorm-hibernate4-spring-boot-6.1.7.RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

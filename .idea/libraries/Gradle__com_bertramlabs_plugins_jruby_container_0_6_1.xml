@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.bertramlabs.plugins:jruby-container:0.6.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.bertramlabs.plugins/jruby-container/0.6.1/375bfb1d14294799b425982814a13c87d3e09d34/jruby-container-0.6.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.bertramlabs.plugins/jruby-container/0.6.1/6f951a67538e94ba7e7ea6b9a64113237d21568/jruby-container-0.6.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

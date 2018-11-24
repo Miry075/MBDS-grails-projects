@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jruby:jruby-complete:1.7.18">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jruby/jruby-complete/1.7.18/a1be3e1790aace5c99614a87785454d875eb21c2/jruby-complete-1.7.18.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jruby/jruby-complete/1.7.18/86d20d6562e79c98d0c9d544b43e86dc8669d686/jruby-complete-1.7.18-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

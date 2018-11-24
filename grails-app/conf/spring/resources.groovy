@@ -13,9 +13,7 @@ beans = {
         userService = ref('userService')
     }
 
-    userService(UserService){
-
-    }
+    userService(UserService)
 
     userPasswordEncoderListener(UserPasswordEncoderListener)
 }
